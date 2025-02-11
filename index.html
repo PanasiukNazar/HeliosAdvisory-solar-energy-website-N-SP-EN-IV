@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Helios Advisory</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+            >
+                <h2 class="m-0 text-primary">Helios Advisory</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="index.html#about" class="nav-item nav-link"
+                        >Sobre Nosotros</a
+                    >
+                    <a href="index.html#service" class="nav-item nav-link"
+                        >Servicios</a
+                    >
+                    <a href="index.html#team" class="nav-item nav-link"
+                        >Consultores</a
+                    >
+                    <a href="index.html#contact" class="nav-item nav-link"
+                        >Contacto</a
+                    >
+                </div>
+                <a
+                    href="index.html#contact"
+                    class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+                    >Contáctanos<i class="fa fa-arrow-right ms-3"></i
+                ></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <div class="container-fluid p-0 mb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(24, 29, 56, 0.7)"
+                    >
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-sm-10 col-lg-8">
+                                    <h5
+                                        class="text-primary text-uppercase mb-3 animated slideInDown"
+                                    >
+                                        Consultoría Energética
+                                    </h5>
+                                    <h1
+                                        class="display-3 text-white animated slideInDown"
+                                    >
+                                        Tendencias y Análisis
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Descubra los factores clave que afectan
+                                        el campo de la energía solar. Ofrecemos
+                                        materiales analíticos sobre el estado
+                                        del mercado de la energía solar, la
+                                        industria y las soluciones tecnológicas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(24, 29, 56, 0.7)"
+                    >
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-sm-10 col-lg-8">
+                                    <h5
+                                        class="text-primary text-uppercase mb-3 animated slideInDown"
+                                    >
+                                        Políticas Energéticas
+                                    </h5>
+                                    <h1
+                                        class="display-3 text-white animated slideInDown"
+                                    >
+                                        Impacto de las Regulaciones
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Explore cómo las políticas energéticas
+                                        impactan el mercado, la producción y el
+                                        desarrollo de soluciones solares a nivel
+                                        global.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5" id="service">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item text-center pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-chart-line text-primary mb-4"
+                                ></i>
+                                <h5 class="mb-3">Análisis Energético</h5>
+                                <p>
+                                    Proporcionamos datos y análisis detallados
+                                    sobre el mercado de la energía solar.
+                                    Descubra las tendencias clave en la
+                                    industria de la energía solar y las
+                                    tecnologías emergentes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item text-center pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-globe text-primary mb-4"
+                                ></i>
+                                <h5 class="mb-3">Enfoque Personalizado</h5>
+                                <p>
+                                    Ofrecemos soluciones analíticas que destacan
+                                    las características del mercado de la
+                                    energía solar, ayudándole a adaptarse a las
+                                    oportunidades globales.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item text-center pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-chart-bar text-primary mb-4"
+                                ></i>
+                                <h5 class="mb-3">Eficiencia Energética</h5>
+                                <p>
+                                    Analizamos la eficiencia energética en el
+                                    sector solar, buscando oportunidades para
+                                    optimizar estrategias comerciales y mejorar
+                                    la sostenibilidad en el uso de la energía
+                                    solar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="service-item text-center pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-book-open text-primary mb-4"
+                                ></i>
+                                <h5 class="mb-3">
+                                    Informes y Análisis de Tendencias
+                                </h5>
+                                <p>
+                                    Proporcionamos informes independientes sobre
+                                    las tendencias del mercado solar para que
+                                    pueda mantenerse al tanto de las
+                                    oportunidades y perspectivas futuras en el
+                                    campo de la energía solar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5" id="about">
+            <div class="container">
+                <div class="row g-5">
+                    <div
+                        class="col-lg-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="img-fluid position-absolute w-100 h-100"
+                                src="img/about.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6
+                            class="section-title bg-white text-start text-primary pe-3"
+                        >
+                            Sobre Nosotros
+                        </h6>
+                        <h1 class="mb-4">
+                            Liderando la Consultoría en Energía Solar
+                        </h1>
+                        <p class="mb-4">
+                            Nuestro equipo ofrece la información más actualizada
+                            y el análisis más detallado sobre el mercado de la
+                            energía solar. Nos centramos en las tecnologías
+                            emergentes y las oportunidades dentro del sector.
+                        </p>
+                        <p class="mb-4">
+                            Nos esforzamos por ayudarle a comprender mejor el
+                            sector de la energía solar, proporcionando datos
+                            objetivos y análisis para tomar decisiones
+                            fundamentadas.
+                        </p>
+                        <div class="row gy-2 gx-4 mb-4">
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i
+                                    >Tendencias del mercado solar
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i
+                                    >Soluciones para optimización energética
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i
+                                    >Análisis de nuevas tecnologías solares
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i
+                                    >Consultoría para la adopción de energía
+                                    solar
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i
+                                    >Evaluación de impacto en el mercado solar
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i
+                                    >Pronósticos sobre el futuro de la energía
+                                    solar
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Categories Start -->
+        <div class="container-xxl py-5 category">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Últimas noticias
+                    </h6>
+                    <h1>
+                        Manténgase actualizado sobre las tendencias en energía
+                        solar
+                    </h1>
+                    <p class="mb-5">
+                        Descubra las últimas tendencias y análisis en el sector
+                        de la energía solar. Nuestros materiales le ayudarán a
+                        entender los desarrollos clave y aprovechar las
+                        oportunidades en este sector emergente.
+                    </p>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div
+                                class="col-lg-12 col-md-12 wow zoomIn"
+                                data-wow-delay="0.1s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/cat-1.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 10px"
+                                    >
+                                        <h5 class="m-0">
+                                            Las principales tendencias en el
+                                            sector solar en 2024
+                                        </h5>
+                                        <small class="text-primary">
+                                            Conozca las principales direcciones
+                                            del sector de la energía solar,
+                                            desde avances tecnológicos hasta
+                                            nuevas oportunidades de inversión.
+                                        </small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 wow zoomIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/cat-2.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 10px"
+                                    >
+                                        <h5 class="m-0">
+                                            Cómo optimizar las inversiones en
+                                            energía solar
+                                        </h5>
+                                        <small class="text-primary">
+                                            Explore las principales
+                                            recomendaciones para seleccionar
+                                            estrategias de inversión exitosas en
+                                            el campo de la energía solar.
+                                        </small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 wow zoomIn"
+                                data-wow-delay="0.5s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/cat-3.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 10px"
+                                    >
+                                        <h5 class="m-0">
+                                            La importancia del análisis de
+                                            mercado en energía solar
+                                        </h5>
+                                        <small class="text-primary">
+                                            Lea sobre la relevancia del análisis
+                                            de mercado para tomar decisiones
+                                            informadas sobre inversiones y
+                                            proyectos en energía solar.
+                                        </small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-5 col-md-6 wow zoomIn"
+                        data-wow-delay="0.7s"
+                        style="min-height: 350px"
+                    >
+                        <a
+                            class="position-relative d-block h-100 overflow-hidden"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid position-absolute w-100 h-100"
+                                src="img/cat-4.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                            <div
+                                class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 10px"
+                            >
+                                <h5 class="m-0">
+                                    Estrategias para inversiones exitosas en
+                                    energía solar
+                                </h5>
+                                <small class="text-primary">
+                                    Obtenga recomendaciones y métodos prácticos
+                                    para desarrollar un portafolio de
+                                    inversiones exitosas en energía solar.
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="col-lg-5 col-md-6 wow zoomIn"
+                        data-wow-delay="0.7s"
+                        style="min-height: 350px"
+                    >
+                        <a
+                            class="position-relative d-block h-100 overflow-hidden"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid position-absolute w-100 h-100"
+                                src="img/cat-8.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                            <div
+                                class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                style="margin: 10px"
+                            >
+                                <h5 class="m-0">
+                                    Perspectivas del desarrollo de la energía
+                                    solar
+                                </h5>
+                                <small class="text-primary">
+                                    Pronósticos sobre el futuro del sector de la
+                                    energía solar y las oportunidades de
+                                    inversión que presenta.
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div
+                                class="col-lg-12 col-md-12 wow zoomIn"
+                                data-wow-delay="0.1s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/cat-5.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 10px"
+                                    >
+                                        <h5 class="m-0">
+                                            Tendencias en el sector solar para
+                                            2024
+                                        </h5>
+                                        <small class="text-primary">
+                                            Conozca los sectores más
+                                            prometedores en la energía solar
+                                            para 2024 y cómo aprovechar las
+                                            oportunidades de inversión.
+                                        </small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 wow zoomIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/cat-6.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 10px"
+                                    >
+                                        <h5 class="m-0">
+                                            Impacto de los eventos globales en
+                                            el sector solar
+                                        </h5>
+                                        <small class="text-primary">
+                                            Descubra cómo los eventos globales
+                                            están afectando el desarrollo y la
+                                            estabilidad del sector solar.
+                                        </small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 wow zoomIn"
+                                data-wow-delay="0.5s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/cat-7.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                        style="margin: 10px"
+                                    >
+                                        <h5 class="m-0">
+                                            Cómo elegir la mejor estrategia de
+                                            inversión en energía solar
+                                        </h5>
+                                        <small class="text-primary">
+                                            Siga nuestras recomendaciones para
+                                            elegir estrategias de inversión
+                                            efectivas en el sector de la energía
+                                            solar.
+                                        </small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Categories End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5" id="team">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Nuestro equipo
+                    </h6>
+                    <h1 class="mb-5">
+                        Equipo experto en consultoría de energía solar
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item bg-light">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div
+                                class="position-relative d-flex justify-content-center"
+                                style="margin-top: -23px"
+                            ></div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Carlos Gómez</h5>
+                                <small
+                                    >Consultor experto en energía solar</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item bg-light">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div
+                                class="position-relative d-flex justify-content-center"
+                                style="margin-top: -23px"
+                            ></div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Ana Rodríguez</h5>
+                                <small>Analista en energía solar</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item bg-light">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div
+                                class="position-relative d-flex justify-content-center"
+                                style="margin-top: -23px"
+                            ></div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Luis Pérez</h5>
+                                <small
+                                    >Experto en soluciones de energía
+                                    solar</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item bg-light">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div
+                                class="position-relative d-flex justify-content-center"
+                                style="margin-top: -23px"
+                            ></div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Laura Martínez</h5>
+                                <small
+                                    >Coordinadora de proyectos de energía
+                                    solar</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonios Inicio -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Testimonios
+                    </h6>
+                    <h1 class="mb-5">
+                        Lo que dicen nuestros clientes sobre el servicio de
+                        consultoría en energía solar
+                    </h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel position-relative"
+                >
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="border rounded-circle p-2 mx-auto mb-3"
+                            src="img/testimonial-1.jpg"
+                            style="width: 80px; height: 80px"
+                        />
+                        <h5 class="mb-0">Juan Pérez</h5>
+                        <div class="testimonial-text bg-light text-center p-4">
+                            <p class="mb-0">
+                                "El servicio de consultoría en energía solar ha
+                                sido fundamental para optimizar nuestro consumo
+                                y adoptar soluciones más sostenibles en nuestra
+                                empresa."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="border rounded-circle p-2 mx-auto mb-3"
+                            src="img/testimonial-2.jpg"
+                            style="width: 80px; height: 80px"
+                        />
+                        <h5 class="mb-0">Carlos Gómez</h5>
+                        <div class="testimonial-text bg-light text-center p-4">
+                            <p class="mb-0">
+                                "Gracias a la consultoría especializada, hemos
+                                logrado integrar soluciones innovadoras en
+                                energía solar, mejorando nuestra eficiencia y
+                                reduciendo costes operativos."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="border rounded-circle p-2 mx-auto mb-3"
+                            src="img/testimonial-3.jpg"
+                            style="width: 80px; height: 80px"
+                        />
+                        <h5 class="mb-0">Laura Sánchez</h5>
+                        <div class="testimonial-text bg-light text-center p-4">
+                            <p class="mb-0">
+                                "La asesoría en energía solar nos ha permitido
+                                tomar decisiones informadas y hacer crecer
+                                nuestra sostenibilidad a largo plazo."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonios Fin -->
+
+        <!-- Contacto Inicio -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Contáctenos
+                    </h6>
+                    <h1 class="mb-5">
+                        Envíenos sus preguntas sobre consultoría en energía
+                        solar
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-12 col-md-12 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <form action="thanks.html" method="get">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Su nombre"
+                                            required
+                                        />
+                                        <label for="name">Su nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Su Email"
+                                            required
+                                        />
+                                        <label for="email">Su Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Asunto"
+                                            required
+                                        />
+                                        <label for="subject">Asunto</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Deje su mensaje aquí"
+                                            id="message"
+                                            style="height: 150px"
+                                            required
+                                        ></textarea>
+                                        <label for="message">Mensaje</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Enviar mensaje
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contacto Fin -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">Helios Advisory</h4>
+                        <p>
+                            Manténgase al tanto de los últimos desarrollos y
+                            análisis sobre la industria de la energía solar.
+                            Nuestro equipo ofrece perspectivas sobre las
+                            principales tendencias, innovaciones tecnológicas y
+                            la evolución del mercado en este campo.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">Enlaces rápidos</h4>
+                        <a class="btn btn-link" href="index.html">Inicio</a>
+                        <a class="btn btn-link" href="index.html#about"
+                            >Sobre nosotros</a
+                        >
+                        <a class="btn btn-link" href="index.html#contact"
+                            >Contacto</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Política de privacidad</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Términos de uso</a
+                        >
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">Contacto</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i>
+                            helios_advisory@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Consentimiento para el uso de cookies
+                </h2>
+            </div>
+            <div class="data">
+                <p>
+                    Este sitio web utiliza cookies para brindarte la mejor
+                    experiencia de navegación.
+                    <a href="privacy-policy.html">Saber más...</a>
+                </p>
+            </div>
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
